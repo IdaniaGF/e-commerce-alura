@@ -1,0 +1,14 @@
+.button{
+  border: solid 1px var(--green); 
+  padding: 0.5rem 1rem; 
+  border-radius: var(--border-radius);
+  background: linear-gradient(0.25turn, var(--green), var(--dark-aqua)) 0% 100% / 0% 100% no-repeat;
+  transition: background-size 0.5s; 
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;  
+}
+  
+.button:hover{
+  background-size:100% 100%;
+  color: var(--white); 
+  cursor: pointer; 
+}

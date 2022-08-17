@@ -1,0 +1,11 @@
+.footer {
+    text-align: center;
+    padding: 1rem 0; 
+    background-color: var(--white);
+}
+
+.footer__info,
+.footer__year {
+    font-weight: 400;
+    line-height: 1.5rem;
+}

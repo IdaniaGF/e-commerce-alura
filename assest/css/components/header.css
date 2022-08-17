@@ -1,0 +1,82 @@
+.header{
+    align-items: center;
+    justify-content: space-between; 
+    height: 4rem;  
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+}
+
+.logo{
+    height: 2.25rem;  
+}
+
+.store-name{
+    display: inline-block; 
+    font-family: "Pacifico";
+    font-size: 1.875rem; 
+    color: var(--dark-aqua); 
+}
+
+.header__search{
+    flex-wrap: nowrap;
+    border: solid 1px var(--green);
+    background-color: var(--white);
+    width: 37px; 
+    padding: 0.5rem; 
+    border-radius: var(--border-radius);
+    position: absolute; 
+    right: 80px; 
+    transition: width 1s;
+}
+
+.header__search i{
+    margin-right: 5px;
+    color: var(--green); 
+}
+
+.header__search input{
+    display: none; 
+    width: 95%;
+    background-color: transparent; 
+    transition: display 1s; 
+}
+
+.header__search i:hover{
+    color: var(--dark-aqua); 
+    cursor: pointer; 
+}
+
+.header__search:focus-within{
+    border: solid 3px var(--dark-aqua); 
+}
+
+.header__search:focus-within, .header__search:hover{
+    width: 206px;
+}
+
+.header__search:hover> input, .header__search input:focus{
+    display: initial;      
+}
+
+.header h2{
+    display: none; 
+}
+
+@media only screen and (min-width: 600px) {
+    .header__search{
+        position: initial; 
+        width: auto;
+    }
+
+    .header__search input{
+        display: initial; 
+    }
+    .header__search:focus-within, .header__search:hover{
+        width: auto;
+    }
+    .header h2{
+        display: initial; 
+    }
+}
+
+

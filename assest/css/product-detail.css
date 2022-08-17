@@ -1,0 +1,33 @@
+.details{
+    flex-direction: column;
+    margin: 3rem auto;
+    width: 100%;
+}
+
+.details__img{
+    max-width: 320px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;  
+}
+
+.details__global-rating{
+    color: var(--dark-aqua); 
+}
+
+.info__price{
+    font-weight: 500;
+}
+
+@media (min-width: 600px) {
+    .details{
+        flex-direction: row;
+        width: initial;
+    }
+    .details__img{
+        max-width: initial;
+        width: 40%; 
+    }
+    .details__info{
+        width: 58%; 
+    }
+}
+

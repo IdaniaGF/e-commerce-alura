@@ -1,0 +1,11 @@
+.menu{
+    margin: 1rem 0 2rem; 
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.menu__link{
+    display: inline;
+    margin: 0 0.5rem;
+}
+

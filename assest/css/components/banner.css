@@ -1,0 +1,29 @@
+.banner{
+    height: 25vh;
+    background: var(--light-green) url("../../img/banner.jpg") center / cover no-repeat;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+.banner__title{
+    font-size: 2rem; 
+    font-weight: 700;
+}
+
+.banner__promos{
+    margin-top: 1rem; 
+    font-size: 1.5rem; 
+    font-weight: 500;
+}
+
+.banner__button{
+    margin-top: 1rem;
+    font-size: 1.125rem;  
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 600px) {
+    .banner{
+        height: 30vh;
+    }
+}

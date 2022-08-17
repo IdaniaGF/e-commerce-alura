@@ -1,0 +1,34 @@
+:root {
+  --font-family: "Fira Sans Condensed", sans-serif;
+
+  --font-input: 300;
+
+  --font-size-logo: 28px;
+  --font-size-card-title: 28px;
+  --font-size-input-label: 20px;
+  --font-size-button: 22px;
+  --font-size-form-fieldset: 22px;
+  --font-size-table-header: 22px;
+  --font-size-modal-title: 28px;
+  --font-size-modal-button: 28px;
+
+  --green:rgb(158, 204, 122); 
+  --light-green: rgba(158, 204, 122,0.3);
+  --dark-gray:rgb(37, 37, 37); 
+  --white: rgb(255, 255, 255);
+  --aqua: rgb(0, 204, 118);
+  --dark-aqua: rgb(0, 170, 149);
+  --error: #df2525;
+  --sucess: #047900;
+  --transparency: #4d4d4d33;
+
+  --shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;  
+
+  --border-radius: 20px; 
+}
+
+@media (min-width: 800px) {
+  :root {
+    --font-size-logo: 56px;
+  }
+}

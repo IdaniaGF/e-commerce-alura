@@ -1,0 +1,26 @@
+.login-background{
+    position: relative; 
+    background: var(--light-green) url("../../img/banner.jpg") center / cover no-repeat;
+}
+
+.login-background .form-container{
+    position: absolute; 
+    margin: 0; 
+    width: 90%; 
+    max-width: 320px;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border-radius: var(--border-radius);
+}
+
+.login__button{
+    margin: 0 1rem; 
+}
+
+@media only screen and (min-width: 600px) {
+    .login-background .form-container{
+        width: 30%;
+        min-width: 320px;
+    }
+}
