@@ -1,0 +1,9 @@
+.flower{
+    width: 25%;
+    min-width: 100px;
+}
+
+.description{
+    font-size: 1.2rem; 
+    margin: 1.2rem 0; 
+}

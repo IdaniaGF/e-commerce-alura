@@ -18,36 +18,38 @@
 <body>
     <header class="header container flex">
         <div>
-            <img src="../assest/img/logo.png" class="logo">
+            <img src="../assest/img/logo.png" class="logo" alt="The vital logo">
             <h1 class="store-name">The Vital</h1>
         </div>
         <a href="index.html" class="button">Home</a>
     </header>
     <main class="login-background">
-        <section class="form-container flex flex--column flex--center">
+        <section class="white-container white-container--center flex flex--column flex--center">
             <h2 class="title">Welcome!</h2>
-            <form action="#" class="form">
+            <form action="./administrator.html" class="form" data-form>
                 <div class="input-container">
-                    <input type="email" name="email" class="input" placeholder="E-mail" required>
+                    <input type="email" name="email" class="input" id="email" placeholder="E-mail" data-type="email" pattern="[\w]*[-_.]*@[a-z]*\.[a-z]{1,4}" required>
                     <label for="email" class="input-label">E-mail</label>
+                    <span class="error"></span>
                 </div>
                 <div class="input-container">
-                    <input type="password" name="password" class="input" placeholder="Password" required>
+                    <input type="password" name="password" class="input" id="password" placeholder="Password" data-type="password" required>
                     <label for="password" class="input-label">Password</label>
+                    <span class="error"></span>
                 </div>
-                <div class="flex flex--center">
-                    <button type="submit" class="login__button button"><a href="administrator.html">Log in</a></button>
-                    <button type="button" class="login__button button">Register</button>
-                </div>
+                <button type="submit" class="button">Log in</button>
             </form>
         </section>
     </main>
     <footer class="footer">
         <a href="#" class="menu__logo"><i class="fa-brands fa-pagelines"></i></a>
-        <h4 class="footer__info">Designed and developed by <a href="#" class="link">Idania Guerrero</a>, 2022</h4>
+        <h4 class="footer__info">Designed and developed by <a href="https://idaniagf.github.io/Porfolio/" class="link">Idania Guerrero</a>, 2022</h4>
         Nature icons created by Freepik - <a href="https://www.flaticon.com/free-icons/nature" title="nature icons" class="link">Flaticon</a> - 
         Pictures of <a href="https://pixabay.com/es/users/couleur-1195798/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3540502" class="link">Couleur</a> in <a href="https://pixabay.com/es//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3540502" class="link">Pixabay</a>    
     </footer>
     <script src="https://kit.fontawesome.com/79a37c2337.js" crossorigin="anonymous"></script>
+    <script src="../js/validations/captureInput.js" type="module"></script>
+    <script src="../js/validations/autentication.js" type="module"></script>
+
 </body>
 </html>

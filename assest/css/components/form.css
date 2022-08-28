@@ -1,32 +1,29 @@
-.form-container{
-    background-color: var(--white);
-    padding: 2rem 0; 
-    width: calc(100% - 2rem); 
-    margin: 4rem auto;
-    border-radius: var(--border-radius); 
-    text-align: center;
-    box-shadow: var(--shadow);
-}
-
-.form-container__info{
+.form-info{
     margin: 0 1rem;
 }
 
 .form{
     width: 100%;
+    text-align: center;
 }
 
 .input-container{
-    border-bottom: var(--green) solid 1px;
     position: relative; 
-    margin: 1rem 7%; 
-    background: linear-gradient(0.25turn, var(--green), var(--dark-aqua)) 0% 100% / 0% 2px no-repeat;
-    transition: background-size 0.5s;
+    margin: 0.5rem 7%; 
+    padding-bottom: 1rem; 
+    text-align: left;
 }
 
 .input{
-    background: none;
-    padding-top: 1.2rem; 
+    width: 100%;
+    padding: 1.5rem 0 0.25rem 0;
+    background: linear-gradient(0.25turn, var(--green), var(--dark-aqua)) 0% 100% / 0% 2px no-repeat;
+    transition: background-size 0.5s;
+    border-bottom: var(--green) solid 1px;
+}
+
+.input--select{
+    width: fit-content;
 }
 
 .input::placeholder{
@@ -35,36 +32,48 @@
 
 .input-label{
     position: absolute; 
-    top: 1rem; 
+    top: 1.5rem; 
     left: 0; 
     transition: all 0.3s; 
 }
 
 .input:not(:placeholder-shown) + .input-label, .input:focus + .input-label{
-    top: 0; 
-    font-size: 14px; 
+    top: 0.5rem; 
+    font-size: 0.875rem; 
     color: var(--dark-aqua); 
 }
 
-.input-container:focus-within{
+.input:focus{
     background-size: 100% 2px;
 }
 
+.input-container--invalid{
+    padding-bottom: 0; 
+}
+
+.input-container--invalid .input{
+    border-bottom: var(--error) solid 1px;
+}
+
+.input-container--invalid .error, .input-container--invalid .input-label,.input-container--invalid .input:not(:placeholder-shown) + .input-label {
+    color: var(--error);
+}
+
+.error{
+    font-size: 0.8rem; 
+}
+
+.input--img{
+    width: 85%;
+}
+
+.input--folder{
+    width: 10%;
+    padding: 0;
+}
 
 @media (min-width: 600px) {
-    .form-container{
-        max-width: 600px;
-        width: 85%; 
-    }
-
     .input-container{
-        margin: 1rem 10%; 
+        margin: 0.5rem 10%; 
     }
 }
-  
-@media (min-width: 1200x) {
-    .form-container{
-        width: 60%; 
-    }
-}
-  

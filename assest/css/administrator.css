@@ -1,0 +1,22 @@
+.product__info__button, .product__info__rating{
+    display:  none; 
+}
+
+.popup{
+    position: fixed; 
+    background-color: var(--white);
+    padding: 3rem; 
+    border-radius: var(--border-radius);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition:all 2s; 
+}
+
+.popup__question{
+    margin-bottom: 1rem; 
+    font-size: 1.2rem; 
+}
+

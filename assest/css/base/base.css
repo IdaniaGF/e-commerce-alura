@@ -25,6 +25,27 @@ main{
   padding-right: 1rem; 
 } 
 
+.white-container{
+  background-color: var(--white);
+  padding: 2rem 0; 
+  width: calc(100% - 2rem); 
+  margin: 4rem auto;
+  border-radius: var(--border-radius); 
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.white-container--center{
+  position: absolute; 
+  margin: 0; 
+  width: 90%; 
+  max-width: 320px;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  border-radius: var(--border-radius);
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -44,20 +65,56 @@ main{
   align-items: center;
 }
 
+.fade-out{
+  opacity: 0; 
+}
+
+.hide-element{
+  display: none; 
+}
+
+img[alt=index], img[alt=filter], img[alt=details], img[alt=login], img[alt=administrator], img[alt=addProduct], img[alt=editProduct]{
+ width: 200px; 
+}
+
 @media (min-width: 600px) {
   :root{
     font-size: 16px; 
+  }
+
+  main{
+    min-height: calc(100vh - 9.5rem);
   }
 
   .container {
     padding-right: 2.5rem;
     padding-left: 2.5rem;
   }
+
+  .white-container{
+    width: 85%; 
+    max-width: 600px;
+  }
+
+  .white-container--center{
+    width: 30%;
+    min-width: 320px;
+  }
+  
 }
 
 @media (min-width: 1200px) {
   .container {
     padding-left: calc((100vw - 1100px) / 2);
     padding-right: calc((100vw - 1100px) / 2);
+  }
+
+  .white-container{
+    width: 60%; 
+  }
+
+  .white-container--center{
+    width: 30%;
+    max-width: 400px;
   }
 }

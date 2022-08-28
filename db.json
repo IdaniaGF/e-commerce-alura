@@ -1,0 +1,132 @@
+{
+  "product": [
+    {
+      "imageUrl": "https://images.pexels.com/photos/8789602/pexels-photo-8789602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "alt": "Razor",
+      "name": "Razor",
+      "price": "$ 44.55 MXN",
+      "type": "cleaning",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis eum voluptas quam adipisci atque aspernatur non nemo, aliquam quos voluptatum nisi delectus nam. In, minus perspiciatis? Impedit, incidunt ab! Assumenda?",
+      "id": "2"
+    },
+    {
+      "imageUrl": "https://images.pexels.com/photos/7814789/pexels-photo-7814789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "alt": "Soap",
+      "name": "Soap",
+      "price": "$ 44.55 MXN",
+      "type": "cleaning",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis eum voluptas quam adipisci atque aspernatur non nemo, aliquam quos voluptatum nisi delectus nam. In, minus perspiciatis? Impedit, incidunt ab! Assumenda?",
+      "id": "3"
+    },
+    {
+      "imageUrl": "https://images.pexels.com/photos/3762875/pexels-photo-3762875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "alt": "Deodorant",
+      "name": "Deodorant",
+      "price": "$ 100.00 MXN",
+      "type": "cleaning",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis eum voluptas quam adipisci atque aspernatur non nemo, aliquam quos voluptatum nisi delectus nam. In, minus perspiciatis? Impedit, incidunt ab! Assumenda?",
+      "id": "5"
+    },
+    {
+      "imageUrl": "https://images.pexels.com/photos/7814567/pexels-photo-7814567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "alt": "Toothbrush",
+      "name": "Toothbrush",
+      "price": "$ ##.## MXN",
+      "type": "cleaning",
+      "rating": "4",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis eum voluptas quam adipisci atque aspernatur non nemo, aliquam quos voluptatum nisi delectus nam. In, minus perspiciatis? Impedit, incidunt ab! Assumenda?",
+      "id": "4"
+    },
+    {
+      "imageUrl": "https://images.pexels.com/photos/5765/flour-powder-wheat-jar.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "alt": "Chickpea flour",
+      "name": "Chickpea flour",
+      "price": "$ 15.00 MXN /kg",
+      "type": "food",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis eum voluptas quam adipisci atque aspernatur non nemo. ",
+      "id": "6"
+    },
+    {
+      "imageUrl": "https://images.pexels.com/photos/4518610/pexels-photo-4518610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "alt": "Tofu",
+      "name": "Tofu",
+      "price": "$ 30.00 MXN /kg",
+      "type": "food",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis eum voluptas quam adipisci atque aspernatur non nemo, aliquam quos voluptatum nisi delectus nam. In, minus perspiciatis? Impedit, incidunt ab! Assumenda?",
+      "id": "7"
+    },
+    {
+      "imageUrl": "https://images.pexels.com/photos/1311771/pexels-photo-1311771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "alt": "Rice",
+      "name": "Rice",
+      "price": "$ 30.00 MXN /kg",
+      "type": "food",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis eum voluptas quam adipisci atque aspernatur non nemo, aliquam quos voluptatum nisi delectus nam. In, minus perspiciatis? Impedit, incidunt ab! Assumenda?",
+      "id": "8"
+    },
+    {
+      "imageUrl": "https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "alt": "Olive oil",
+      "name": "Olive oil",
+      "price": "$ 160.00 MXN /lt",
+      "type": "food",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis eum voluptas quam adipisci atque aspernatur non nemo, aliquam quos voluptatum nisi delectus nam. In, minus perspiciatis? Impedit, incidunt ab! Assumenda?",
+      "id": "9"
+    },
+    {
+      "imageUrl": "https://images.pexels.com/photos/1586947/pexels-photo-1586947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "alt": "Bread",
+      "name": "Bread",
+      "price": "$ 3.00 MXN /pza",
+      "type": "food",
+      "description": "Pancito riqui y delicioso",
+      "id": "10"
+    },
+    {
+      "imageUrl": "https://images.pexels.com/photos/5503338/pexels-photo-5503338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "alt": "Compost at home",
+      "name": "Compost at home",
+      "price": "$ 100.00 MXN",
+      "type": "services",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis eum voluptas quam adipisci atque aspernatur non nemo, aliquam quos voluptatum nisi delectus nam. In, minus perspiciatis? Impedit, incidunt ab! Assumenda?",
+      "id": "12"
+    },
+    {
+      "imageUrl": "https://www.tankshop.com.au/wp-content/uploads/wet-dry-systems-rainwater-harvesting-720x430.jpg",
+      "alt": "Scary water system",
+      "name": "Scary water system",
+      "price": "$ 00.00 MXN (quotation)",
+      "type": "services",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis eum voluptas quam adipisci atque aspernatur non nemo, aliquam quos voluptatum nisi delectus nam. In, minus perspiciatis? Impedit, incidunt ab! Assumenda?",
+      "id": "13"
+    },
+    {
+      "imageUrl": "https://images.pexels.com/photos/3094208/pexels-photo-3094208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "alt": "Gardenning",
+      "name": "Gardenning",
+      "price": "$ 100.00 MXN (quotation)",
+      "type": "services",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis eum voluptas quam adipisci atque aspernatur non nemo, aliquam quos voluptatum nisi delectus nam. In, minus perspiciatis? Impedit, incidunt ab! Assumenda?",
+      "id": "15"
+    },
+    {
+      "imageUrl": "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg",
+      "alt": "Essential Oil",
+      "name": "Essential Oil",
+      "price": "$ 44.44 MXN",
+      "type": "cleaning",
+      "description": "Essential Oil, organic",
+      "id": "d7f36d45-e099-4232-bd58-9667948c282b"
+    }
+  ],
+  "users": [
+    {
+      "username": "idania@vital.com",
+      "password": "12345678"
+    },
+    {
+      "username": "miguel@vital.com",
+      "password": "87654321"
+    }
+  ]
+}

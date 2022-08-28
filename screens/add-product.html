@@ -18,35 +18,46 @@
 <body>
     <header class="header container flex">
         <div>
-            <img src="../assest/img/logo.png" class="logo">
+            <img src="../assest/img/logo.png" class="logo" alt="The vital logo">
             <h1 class="store-name">The Vital</h1>
         </div>
         <h2 class="link">Administrator mode</h2>
         <a href="administrator.html" class="button">Back to products</a>
     </header>
     <main>
-        <section class="form-container flex flex--column flex--center">
+        <section class="white-container flex flex--column flex--center">
             <h2 class="title">Enter the data of the new product</h2>
-            <form action="#" class="form">
+            <form action="./success.html" class="form" data-form>
                 <div class="input-container">
-                    <input type="text" name="img" id="img" class="input" placeholder="Image URL">
+                    <input type="text" name="img" id="img" class="input input--img" placeholder="Image URL" data-type="productImg" pattern="[\S]*" required>
                     <label for="img" class="input-label">Image URL</label>
+                    <a href="file://C:/Users/52669/Documents/Preparación_sistemas/ONE/Front_End/Challenges/e-commerce/assest/img" class="button input--folder"><i class="fa-solid fa-laptop"></i></a>
+                    <span class="error"></span>
                 </div>
                 <div class="input-container">
-                    <input type="text" name="category" id="category" class="input" placeholder="Category" required>
-                    <label for="category" class="input-label">Category</label>
-                </div>
-                <div class="input-container">
-                    <input type="text" name="product" id="product" class="input" placeholder="Product name" required>
-                    <label for="category" class="input-label">Product name</label>
+                    <input type="text" name="name" id="name" class="input" placeholder="Product name" data-type="productName" maxlength="20" required>
+                    <label for="name" class="input-label">Product name</label>
+                    <span class="error"></span>
                 </div>        
                 <div class="input-container">
-                    <input type="text" name="price" id="price" class="input" placeholder="Price" required>
-                    <label for="price" class="input-label">Price</label>
+                    <input type="text" name="price" id="price" class="input" placeholder="Price"data-type="productPrice"pattern="\$\s[0-9]{1,5}\.[0-9]{1,5}\sMXN[\s\S]{0,30}" required>
+                    <label for="price" class="input-label">Price ($ ##.## MXN)</label>
+                    <span class="error"></span>
                 </div>
                 <div class="input-container">
-                    <textarea name="description" id="description" class="input" rows="8"placeholder="Description"></textarea>
+                    <select name="category" id="type" class="input--select input" data-type="productType" required>
+                        <option value="">--</option>
+                        <option value="cleaning">Cleaning</option>
+                        <option value="food">Food</option>
+                        <option value="services">Services</option>
+                    </select>
+                    <label for="type" class="input-label">Type</label>
+                    <span class="error"></span>
+                </div>
+                <div class="input-container">
+                    <textarea name="description" id="description" class="input" rows="8" placeholder="Description" data-type="productDescription" maxlength="150" required></textarea>
                     <label for="description" class="input-label">Description</label>
+                    <span class="error"></span>
                 </div>
                 <button type="submit" class="button">Add product</button>
             </form>
@@ -54,10 +65,14 @@
     </main>
     <footer class="footer">
         <a href="#" class="menu__logo"><i class="fa-brands fa-pagelines"></i></a>
-        <h4 class="footer__info">Designed and developed by <a href="#" class="link">Idania Guerrero</a>, 2022</h4>
+        <h4 class="footer__info">Designed and developed by <a href="https://idaniagf.github.io/Porfolio/" class="link">Idania Guerrero</a>, 2022</h4>
         Nature icons created by Freepik - <a href="https://www.flaticon.com/free-icons/nature" title="nature icons" class="link">Flaticon</a> - 
         Pictures of <a href="https://pixabay.com/es/users/couleur-1195798/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3540502" class="link">Couleur</a> in <a href="https://pixabay.com/es//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3540502" class="link">Pixabay</a>    
     </footer>
     <script src="https://kit.fontawesome.com/79a37c2337.js" crossorigin="anonymous"></script>
+    <script src="../js/validations/captureInput.js" type="module"></script>
+    <script src="../js/services/product-services.js" type="module"></script>
+    <script src="../js/controllers/add-product.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>

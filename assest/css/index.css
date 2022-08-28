@@ -1,0 +1,4 @@
+.product__img__edit, .product__img__delete, .product__info__description, .product__info__rating{
+    display:  none; 
+}
+

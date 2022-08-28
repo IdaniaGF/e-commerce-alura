@@ -1,0 +1,25 @@
+{
+  "name": "e-commerce-crud",
+  "version": "1.0.0",
+  "description": "e-commerce product management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IdaniaGF/e-commerce-alura.git"
+  },
+  "keywords": [
+    "e-commerce",
+    "crud",
+    "alura"
+  ],
+  "author": "Idania Guerrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IdaniaGF/e-commerce-alura/issues"
+  },
+  "type":"module",
+  "homepage": "https://github.com/IdaniaGF/e-commerce-alura#readme"
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Vital</title>
+    <title>The vital | Products</title>
     <link rel="stylesheet" href="../assest/css/base/base.css">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assest/css/components/button.css">
@@ -31,36 +31,12 @@
         <a href="login.html" class="button">Log in</a>
     </header>
     <main>
-        <section class="banner flex flex--center flex--column">
-            <h2 class="banner__title">August promotions</h2>
-            <p class="banner__promos">Selected products with 50% discount</p>
-            <a href="products.html" class="banner__button button">See more</a>
-        </section>
-        <section class="container">
-            <section class="product-type">
-                <div class="flex flex--space-between">
-                    <h2 class="title">Cleaning</h2>
-                    <a class="button" href="products.html">See all</a>
-                </div>
-                <div class="products-container flex" data-cleaning>
-                </div>
-            </section>
-            <section class="product-type">
-                <div class="flex flex--space-between">
-                    <h2 class="title">Food</h2>
-                    <a class="button" href="products.html">See all</a>
-                </div>
-                <div class="products-container flex" data-food>
-                </div>
-            </section>
-            <section class="product-type">
-                <div class="flex flex--space-between">
-                    <h2 class="title">Services</h2>
-                    <a class="button" href="products.html">See all</a>
-                </div>
-                <div class="products-container flex" data-services>
-                </div>
-            </section>
+        <section class="product-type container">
+            <div class="flex flex--space-between">
+                <h2 class="title" data-results></h2>
+            </div>
+            <div class=" products-container flex" data-food data-cleaning data-services>
+            </div>
         </section>
         <section  class="white-container flex flex--column flex--center">
             <h2 class="title">Contact</h2>
@@ -106,12 +82,12 @@
         <a href="#">
             <i class="fa-brands fa-pagelines"></i></a>
         <h4 class="footer__info">Designed and developed by <a href="https://idaniagf.github.io/Porfolio/" class="link">Idania Guerrero</a>, 2022</h4>
-        <a href="https://www.flaticon.com/free-icons/nature" title="nature icons" class="link">Nature</a> icons created by Freepik in Flaticon - 
+        Nature icons created by Freepik - <a href="https://www.flaticon.com/free-icons/nature" title="nature icons" class="link">Flaticon</a> - 
         Pictures of <a href="https://pixabay.com/es/users/couleur-1195798/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3540502" class="link">Couleur</a> in <a href="https://pixabay.com/es//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3540502" class="link">Pixabay</a>    
     </footer>
     <script src="https://kit.fontawesome.com/79a37c2337.js" crossorigin="anonymous"></script>
-    <script src="../js/controllers/see-productList.js" type="module"></script>
     <script src="../js/validations/captureInput.js" type="module"></script>
     <script src="../js/controllers/search-bar.js" type="module"></script>
+    <script src="../js/controllers/filter-products.js" type="module"></script>
 </body>
 </html>
