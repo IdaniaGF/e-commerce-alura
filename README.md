@@ -22,14 +22,6 @@ I worked with the **Trello** tool to manage the activities of each stage of the 
 
 The design was made by me. The project was developed in its entirety in a time of two weeks.
 
-<img src="demo-index.png" alt=index width="50%"/>
-<img src="demo-filter.png" alt=filter width="50%"/>
-<img src="demo-details.png" alt=details width="50%"/>
-<img src="demo-login.png" alt=login width="50%"/>
-<img src="demo-administrator.png" alt=administrator width="50%"/>
-<img src="demo-addProduct.png" alt=addProduct width="50%"/>
-<img src="demo-editProduct.png" alt=editProduct width="50%"/>
-
 ## **Technologies**
 ---
 **Technologies used:**
