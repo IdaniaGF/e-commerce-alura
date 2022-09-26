@@ -11,7 +11,7 @@ const getData = (id) => {
         document.querySelector(".product__img__photo").src = `${product.imageUrl}`; 
     
         if (id == null){
-            window.location.href="../../screens/error.html"; 
+            window.location.href="error.html"; 
         } else{
             const imageUrl = document.querySelector('[data-type="productImg"]'); 
             const type = document.querySelector('[data-type="productType"]'); 
@@ -28,7 +28,7 @@ const getData = (id) => {
     })
     .catch(err => {
         console.log(err);
-        window.location.href="../../screens/error.html"; 
+        window.location.href="error.html"; 
     }); 
 }; 
 
@@ -57,6 +57,6 @@ form.addEventListener("submit", (event)=>{
     .then(() => form.submit()) 
     .catch(err => {
         console.log(err); 
-        window.location.href="../../screens/error.html";
+        window.location.href="error.html";
     }); 
 }); 

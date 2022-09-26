@@ -12,7 +12,7 @@ search.addEventListener("submit", (event) => {
     if(window.location.href.includes("administrator")){
         window.location.href="administrator.html"; 
     }else{
-        window.location.href="screens/products.html"; 
+        window.location.href="products.html"; 
     };
 });
 

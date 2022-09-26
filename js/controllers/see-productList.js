@@ -1,5 +1,5 @@
 import { productServices } from "../services/product-services.js";
-import { createProductHTML } from "create-product.js";
+import { createProductHTML } from "./create-product.js";
 
 productServices
 .productList()

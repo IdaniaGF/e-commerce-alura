@@ -15,7 +15,7 @@ export function deleteProduct (event){
         .deleteProduct(id)
         .catch(err => {
             console.log(err);
-            window.location.href="../../screens/error.html"; 
+            window.location.href="error.html"; 
         })
     }); 
     //hide security question
