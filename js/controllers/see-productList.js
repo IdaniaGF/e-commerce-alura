@@ -1,5 +1,5 @@
 import { productServices } from "../services/product-services.js";
-import { createProductHTML } from "./create-product.js";
+import { createProductHTML } from "create-product.js";
 
 productServices
 .productList()
@@ -11,6 +11,6 @@ productServices
 })
 .catch(err => {
     console.log(err);
-    window.location.href="screens/error.html"; 
+    window.location.href="error.html"; 
 })
  

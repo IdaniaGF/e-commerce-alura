@@ -19,6 +19,6 @@ form.addEventListener("submit", (event)=>{
     .then(() => form.submit())
     .catch(err => {
         console.log(err);
-        window.location.href="../../screens/error.html";
+        window.location.href="error.html";
     }); 
 })

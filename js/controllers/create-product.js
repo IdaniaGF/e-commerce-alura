@@ -1,4 +1,4 @@
-import { deleteProduct } from "./delete-product.js";
+import { deleteProduct } from "delete-product.js";
 
 export function createProductHTML (imageUrl, alt, name, price, type, description, id) {
     //creating HTML elements
