@@ -1,3 +1,0 @@
-[submodule "fake-server"] 
-  path = fake-server 
-  url = git://https://github.com/IdaniaGF/fake-server
