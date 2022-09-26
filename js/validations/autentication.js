@@ -26,7 +26,7 @@ if(!userStatus.disable){
 }
 
 function autenticate(username,password){
-    const usersList = () => fetch("http://localhost:3000/users").then(response => response.json());  
+    const usersList = () => fetch("https://e-commerce-fake-server.herokuapp.com/users").then(response => response.json());  
     usersList().then((data) =>{
         if(data.some(user => user.username == username.value)){
             const user = data.filter(user => user.username == username.value); 

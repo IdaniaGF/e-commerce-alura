@@ -1,7 +1,7 @@
-const productList = () => fetch("http://localhost:3000/product").then(response => response.json());  
+const productList = () => fetch("https://e-commerce-fake-server.herokuapp.com/product").then(response => response.json());  
 
 const addProduct = (imageUrl, alt, name, price, type, description) =>{
-    return fetch("http://localhost:3000/product", {
+    return fetch("https://e-commerce-fake-server.herokuapp.com/product", {
         method: "POST", 
         headers: {
             "Content-type": "application/json"
@@ -10,10 +10,10 @@ const addProduct = (imageUrl, alt, name, price, type, description) =>{
     }); 
 };
 
-const productDetails = (id) => fetch(`http://localhost:3000/product/${id}`).then(response => response.json()); 
+const productDetails = (id) => fetch(`https://e-commerce-fake-server.herokuapp.com/product/${id}`).then(response => response.json()); 
 
 const updateProduct = (imageUrl, alt, name, price, type, description, id) => {
-    return fetch (`http://localhost:3000/product/${id}`,{
+    return fetch (`https://e-commerce-fake-server.herokuapp.com/product/${id}`,{
         method: "PUT", 
         headers: {
             "Content-type": "application/json"
@@ -28,7 +28,7 @@ const updateProduct = (imageUrl, alt, name, price, type, description, id) => {
 };
 
 const deleteProduct = (id) =>{
-    return fetch (`http://localhost:3000/product/${id}`,{
+    return fetch (`https://e-commerce-fake-server.herokuapp.com/product/${id}`,{
         method: "DELETE", 
     }); 
 };
