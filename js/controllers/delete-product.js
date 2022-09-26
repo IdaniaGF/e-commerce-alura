@@ -10,13 +10,17 @@ export function deleteProduct (event){
     const btnConfirm = securityQuestion.querySelector("#delete"); 
     const btnCancel = securityQuestion.querySelector("#dontDelete"); 
 
-    btnConfirm.addEventListener("click", () => {
-        productServices
-        .deleteProduct(id)
-        .catch(err => {
+    btnConfirm.addEventListener("click", async () => {
+        try{
+            const deleted = await productServices.deleteProduct(id); 
+            if(deleted){
+                securityQuestion.classList.add("hide-element"); 
+                window.location.reload(); 
+            }
+        }catch(err){
             console.log(err);
             window.location.href="error.html"; 
-        })
+        }
     }); 
     //hide security question
     btnCancel.addEventListener("click", () => {

@@ -12,7 +12,7 @@ export function createProductHTML (imageUrl, alt, name, price, type, description
     <div class="product__info">
         <h3 class="product__info__name">${name}</h3>
         <p class="product__info__price">${price}</p>
-        <a href="screens/product-detail.html?id=${id}" class="product__info__button link">See product</a>
+        <a class="product__info__button link">See product</a>
         <p class="product__info__description">${description}</p>
     </div>`; 
     const productsContainer = document.querySelector(`[data-${type}]`);
@@ -20,6 +20,13 @@ export function createProductHTML (imageUrl, alt, name, price, type, description
     product.classList.add("product");
     product.innerHTML=content; 
     productsContainer.appendChild(product); 
+    
+    const productDetailBtn = product.querySelector(".product__info__button"); 
+    if (window.location.href.includes("products")){
+        productDetailBtn.href=`product-detail.html?id=${id}`; 
+    }else{
+        productDetailBtn.href=`screens/product-detail.html?id=${id}`; 
+    }
 
     //delete functionality 
     const deleteBtn = product.querySelector("button"); 
