@@ -11,6 +11,6 @@ productServices
 })
 .catch(err => {
     console.log(err);
-    window.location.href="../../screens/error.html"; 
+    window.location.href="screens/error.html"; 
 })
  

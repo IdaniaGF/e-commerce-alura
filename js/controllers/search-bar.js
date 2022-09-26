@@ -10,9 +10,9 @@ search.addEventListener("submit", (event) => {
     //sending to session  and redirecting screen
     sessionStorage.setItem("input",JSON.stringify(input)); 
     if(window.location.href.includes("administrator")){
-        window.location.href="./administrator.html"; 
+        window.location.href="administrator.html"; 
     }else{
-        window.location.href="./products.html"; 
+        window.location.href="screens/products.html"; 
     };
 });
 

@@ -12,7 +12,7 @@ export function createProductHTML (imageUrl, alt, name, price, type, description
     <div class="product__info">
         <h3 class="product__info__name">${name}</h3>
         <p class="product__info__price">${price}</p>
-        <a href="product-detail.html?id=${id}" class="product__info__button link">See product</a>
+        <a href="screens/product-detail.html?id=${id}" class="product__info__button link">See product</a>
         <p class="product__info__description">${description}</p>
     </div>`; 
     const productsContainer = document.querySelector(`[data-${type}]`);
