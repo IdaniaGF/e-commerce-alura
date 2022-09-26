@@ -4,7 +4,10 @@
   "description": "e-commerce applying CRUD",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "repository": {
     "type": "git",
