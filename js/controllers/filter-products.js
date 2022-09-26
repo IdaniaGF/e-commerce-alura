@@ -6,7 +6,7 @@ productServices
 .then(products => {
     //capturing session storage data
     const results = document.querySelector("[data-results]"); 
-    const inputFilter = JSON.parse(sessionStorage.getItem("input"))||""; 
+    const inputFilter = sessionStorage.getItem("input")||""; 
 
     //displaying data in input
     document.querySelector("[data-filter]").value = inputFilter; 
