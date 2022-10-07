@@ -52,11 +52,15 @@ The design was made by me. The project was developed in its entirety in a time o
 ---
 ## **Usage**
 
-Execute the follow comand in your terminal to connect with database:  json-server --watch db.json. 
+Log in data: 
 
-You need to have nodeJS installed. 
-
+user: idania@vital.com 
+password: ###
 ---
+## ****
+Demo: 
+https://www.youtube.com/watch?v=NkG383JUv2M 
+
 ## **Project status and road map**
 Unfortunately, due to time constraints, there were some extra details that I would have liked to add, but I will surely do so in the future:
 
