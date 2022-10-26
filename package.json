@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.html",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,6 @@
   "bugs": {
     "url": "https://github.com/IdaniaGF/e-commerce-alura/issues"
   },
-  "type":"module",
+  "type": "module",
   "homepage": "https://github.com/IdaniaGF/e-commerce-alura#readme"
 }
